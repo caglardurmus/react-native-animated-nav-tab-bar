@@ -55,6 +55,7 @@ export default function TabBarElement({
     dotSize,
     shadow,
     tabButtonLayout,
+    responsive
   } = appearence;
 
   const {
@@ -346,6 +347,7 @@ export default function TabBarElement({
         whenInactiveShow={whenInactiveShow}
         dotSize={dotSize}
         tabButtonLayout={tabButtonLayout}
+        responsive={responsive}
       >
         {labelAndIcon()}
       </TabButton>
