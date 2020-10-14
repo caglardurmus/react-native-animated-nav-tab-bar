@@ -54,6 +54,7 @@ const calculateDotSize = (size) => {
 };
 
 const TabButton = Styled.TouchableOpacity`
+	${(p) => p.responsive ? "" : "flex:1"};
 	flex-direction: ${(p) =>
     p.tabButtonLayout == "vertical"
       ? "column"
